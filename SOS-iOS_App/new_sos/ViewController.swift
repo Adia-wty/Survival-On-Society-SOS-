@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  new_sos
+//  Survival-On-Society SOS
 //
 //  Created by Adia. on 2019/7/13.
 //  Copyright © 2019 Adia. All rights reserved.
@@ -25,59 +25,58 @@ class ViewController: UIViewController {
     var firstInAppear = false
 
     
-    var victimMe = victim(name: "hhbb",
+    // I was lazy to check how to generate random numbers in swift. But laziness brings tediousness.
+    var victimMe = victim(name: "Jack",
                    location: needString([true, false, false, false]),
                    need: [true, false, false, false],
                    condition: 100,
                    coordinate: CLLocationCoordinate2DMake(31, 121))
-    
-    let victim1 = victim(name: "hhbb",
+    let victim1 = victim(name: "Adia",
                    location: needString([true, true, true, false]),
                    need: [true, true, true, false],
                    condition: 90,
-                   coordinate: CLLocationCoordinate2DMake(30.97, 121.1))
-    
-    let victim2 = victim(name: "hhbb",
+                   coordinate: CLLocationCoordinate2DMake(30.97, 121.1)
+    let victim2 = victim(name: "Wilson",
                    location: needString([true, true, false, true]),
                    need: [true, true, false, true],
                    condition: 30,
                    coordinate: CLLocationCoordinate2DMake(30.90, 121.15))
-    let victim3 = victim(name: "hhbb",
+    let victim3 = victim(name: "Maxwell",
                          location: needString([true, false, true, true]),
                          need: [true, false, true, true],
                          condition: 40,
                          coordinate: CLLocationCoordinate2DMake(31.04, 120.88))
-    let victim4 = victim(name: "hhbb",
+    let victim4 = victim(name: "Spensor",
                          location: needString([false, true, true, true]),
                          need: [false, true, true, true],
                          condition: 70,
                          coordinate: CLLocationCoordinate2DMake(31.04, 121.04))
-    let victim5 = victim(name: "hhbb",
+    let victim5 = victim(name: "Ophelia",
                          location: needString([false, false, true, true]),
                          need: [false, false, true, true],
                          condition: 40,
                          coordinate: CLLocationCoordinate2DMake(30.94, 120.91))
-    let victim6 = victim(name: "hhbb",
+    let victim6 = victim(name: "Ed Sheeran",
                          location: needString([true, false, false, true]),
                          need: [true, false, false, true],
                          condition: 40,
                          coordinate: CLLocationCoordinate2DMake(30.8, 120.92))
-    let victim7 = victim(name: "hhbb",
+    let victim7 = victim(name: "TayTay",
                          location: needString([true, true, false, false]),
                          need: [true, true, false, false],
                          condition: 70,
                          coordinate: CLLocationCoordinate2DMake(30.85, 120.93))
-    let victim8 = victim(name: "hhbb",
+    let victim8 = victim(name: "Dwayne Johnson",
                          location: needString([true, false, true, false]),
                          need: [true, false, true, false],
                          condition: 40,
                          coordinate: CLLocationCoordinate2DMake(31.12, 120.99))
-    let victim9 = victim(name: "hhbb",
+    let victim9 = victim(name: "Lilith",
                          location: needString([false, true, false, true]),
                          need: [false, true, false, true],
                          condition: 90,
                          coordinate: CLLocationCoordinate2DMake(31.09, 120.85))
-    let victim10 = victim(name: "hhbb",
+    let victim10 = victim(name: "No more name",
                          location: needString([true, false, false, true]),
                          need: [true, false, false, true],
                          condition: 40,
@@ -134,7 +133,7 @@ class ViewController: UIViewController {
                             if let needFood = UserDefaults.standard.object(forKey: "needFood") as? Bool {
                                 if let needCPR = UserDefaults.standard.object(forKey: "needCPR") as? Bool{
                                     print(mycondition)
-                                    victimMe = victim(name: "hhbb",
+                                    victimMe = victim(name: "Jack",
                                                       location: needString([isHurt, needWater, needFood, needCPR]),
                                                       need: [isHurt, needWater, needFood, needCPR],
                                                       condition: mycondition,
@@ -148,18 +147,6 @@ class ViewController: UIViewController {
         }
         
         map.addAnnotation(victimMe)
-        
-//        if let filterIsOn = UserDefaults.standard.object(forKey: "returnFromSafe") as? Bool
-//        {
-//            if filterIsOn {
-//                print("Filter Is ON")
-//            }
-//            else {
-//                print("Filter Is not ON")
-//            }
-//        }
-        
-        
         
         if let filterIsOn = UserDefaults.standard.object(forKey: "returnFromSafe") as? Bool  {
             
@@ -218,18 +205,6 @@ class ViewController: UIViewController {
                 }
             }
         }
-        
-//        map.addAnnotation(victim1)
-//        map.addAnnotation(victim2)
-//        map.addAnnotation(victim3)
-//        map.addAnnotation(victim4)
-//        map.addAnnotation(victim5)
-//        map.addAnnotation(victim6)
-//        map.addAnnotation(victim7)
-//        map.addAnnotation(victim8)
-//        map.addAnnotation(victim9)
-//        map.addAnnotation(victim10)
-        
     }
     
     // MARK: - CLLocationManager
@@ -251,26 +226,6 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: MKMapViewDelegate {
-    
-    //       1
-    //      func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-    //        guard let annotation = annotation as? Artwork else { return nil }
-    //        // 2
-    //        let identifier = "marker"
-    //        var view: MKMarkerAnnotationView
-    //        if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
-    //          as? MKMarkerAnnotationView { // 3
-    //          dequeuedView.annotation = annotation
-    //          view = dequeuedView
-    //        } else {
-    //          // 4
-    //          view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-    //          view.canShowCallout = true
-    //          view.calloutOffset = CGPoint(x: -5, y: 5)
-    //          view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
-    //        }
-    //        return view
-    //      }
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView,
                  calloutAccessoryControlTapped control: UIControl) {
