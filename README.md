@@ -17,6 +17,15 @@ This is an iOS Application called SOS, Survival On Society. It is a semi-central
 
 5. SOS will also detect the frequency of needs in different regions. For example, if many people in this area are hurt and no one response, then SOS will send more rescuers to there from central. That's why SOS is semi-central.
 
+![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App_demo_1.gif)
+
+![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App_demo_2.gif)
+
+![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/web_demo_1.gif)
+
+![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/web_demo_2.gif)
+
+
 ## What's good?
 Giving victims chances to mutually aid,
 
