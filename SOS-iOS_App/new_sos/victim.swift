@@ -16,10 +16,6 @@ class victim: NSObject, MKAnnotation {
     let condition: Int
     let coordinate: CLLocationCoordinate2D
     var need = [Bool](repeating: false, count: 4)
-//    var needWater : Bool!
-//    var needFood : Bool!
-//    var needMedicine : Bool!
-//    var needCPR : Bool!
     
     init(name: String, location: String, need : [Bool], condition: Int, coordinate: CLLocationCoordinate2D) {
         self.name = name
@@ -27,7 +23,6 @@ class victim: NSObject, MKAnnotation {
         for i in 0...3 {
             self.need[i] = need[i]
         }
-//        self.need = need
         self.condition = condition
         self.coordinate = coordinate
         
