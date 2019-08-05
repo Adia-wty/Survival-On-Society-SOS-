@@ -25,7 +25,8 @@ class ViewController: UIViewController {
     var firstInAppear = false
 
     
-    // I was lazy to check how to generate random numbers in swift. But laziness brings tediousness.
+    // It was close to the morning when I tried to write some cases to test my code. 
+    // So I wrote the cases manually instead of randomly generating. 
     var victimMe = victim(name: "Jack",
                    location: needString([true, false, false, false]),
                    need: [true, false, false, false],
