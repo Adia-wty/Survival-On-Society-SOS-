@@ -19,7 +19,7 @@ This is an iOS Application called SOS, Survival On Society. It is a semi-central
 
 
 ## Demo
-You can watch the demo for [SOS App](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App%20Demo.mp4) and [SOS Web](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/Web%20Demo.mp4), which is clearer than the gif below.
+You can watch the video demo for [SOS App](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App%20Demo.mp4) and [SOS Web](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/Web%20Demo.mp4), which is clearer than the gif below.
 
 ### Demo for SOS App:
 ![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App_demo_1.gif)
