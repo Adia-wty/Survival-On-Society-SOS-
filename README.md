@@ -1,10 +1,10 @@
-# Survival on Society _ SOS
+# Survival on Society - SOS
 
-## Why?
+## Motivation
 I worked on this project in IBM Call for Code Hackthon, which aims at reducing the impact of natural disasters through technology.
 I was really excited about it because using technology to help others is just what I want!
 
-## What?
+## Quick Overview
 This is an iOS Application called SOS, Survival On Society. It is a semi-centralized mutual aid contact and rescue system. The motivation is that when encountering disaster, if people around you can give you a hand, why bother waiting so long for the central authorities to come? With SOS application,
 
 1. If you need help, post your need(lack of food & water, get hurt/trapped...).
@@ -17,12 +17,16 @@ This is an iOS Application called SOS, Survival On Society. It is a semi-central
 
 5. SOS will also detect the frequency of needs in different regions. For example, if many people in this area are hurt and no one response, then SOS will send more rescuers to there from central. That's why SOS is semi-central.
 
-Demo for SOS App:
+
+## Demo
+You can watch the demo for [SOS App](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App%20Demo.mp4) and [SOS Web](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/Web%20Demo.mp4), which is clearer than the gif below.
+
+### Demo for SOS App:
 ![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App_demo_1.gif)
 
 ![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/App_demo_2.gif)
 
-Demo for SOS Web:
+### Demo for SOS Web:
 ![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/web_demo_1.gif)
 
 ![image](https://github.com/Adia-wty/Survival-On-Society_SOS/blob/master/Demo/web_demo_2.gif)
@@ -31,15 +35,15 @@ Demo for SOS Web:
 ## What's good?
 Giving victims chances to mutually aid,
 
-1. largely decrease the pressure of central
+* largely decrease the pressure of central
 
-2. increase the efficiency of rescue and distribution of materials. 
+* increase the efficiency of rescue and distribution of materials. 
 
-## What I've learned in this project?
-1. Scikit-learn
+## What I've learned from this project?
+* Scikit-learn
 
-2. Building iOS application usin Swift
+* Building iOS application usin Swift
 
-3. Thinking backwards: 
+* Thinking backwards: 
 
     Many competitors are thinking about how to further optimize the efficiency from central to individual. This approach fails to recognize individual's power and ability and relies on the central too much. By empowering the individuals, we are improving the world from a different direction.
