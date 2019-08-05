@@ -1,8 +1,8 @@
-# Survival on Society
+# Survival on Society _ SOS
 
 ## Why?
 I worked on this project in IBM Call for Code Hackthon, which aims at reducing the impact of natural disasters through technology.
-I was really excited about this hackthon because using technology to help others is just what I want!
+I was really excited about it because using technology to help others is just what I want!
 
 ## What?
 This is an iOS Application called SOS, Survival On Society. It is a semi-centralized mutual aid contact and rescue system. The motivation is that when encountering disaster, if people around you can give you a hand, why bother waiting so long for the central authorities to come? With SOS application,
@@ -24,10 +24,11 @@ Giving victims chances to mutually aid,
 
 2. increase the efficiency of rescue and distribution of materials. 
 
-## What I learned in this project?
+## What I've learned in this project?
 1. Scikit-learn
 
 2. Building iOS application usin Swift
 
 3. Thinking backwards: 
-    Many competitors are thinking about how to further optimize the efficiency from central to individual. This approach fails to recognize individual's power and ability and relies on the central too much. By empowering the individuals, we are improving the world backwards.
+
+    Many competitors are thinking about how to further optimize the efficiency from central to individual. This approach fails to recognize individual's power and ability and relies on the central too much. By empowering the individuals, we are improving the world from a different direction.
