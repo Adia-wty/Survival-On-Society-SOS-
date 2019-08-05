@@ -42,7 +42,7 @@ Giving victims chances to mutually aid,
 ## What I've learned from this project?
 * Scikit-learn
 
-* Building iOS application usin Swift
+* Building iOS application using Swift
 
 * Thinking backwards: 
 
